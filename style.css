@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    position:sticky;
+    width: 100%;
+}
+.leftnav{
+    width:100%;
+    background-color:white;
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
+.nav-list li a:hover{
+    color:#FF8038;
+}
+.nav-list ul{
+    display: flex;
+    margin-left: 30px;
+    padding-left: 50px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.leftnav img{
+    width: 180px;
+    height: 100px;
+}
+.coverpg{
+    background:rgba(0, 0, 0, 0.6) url(coverpg.jpg);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.coverpg-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+.coverpg-text h1, .coverpg-text p, .coverpg-text a{
+    color: white;
+}
+.coverpg-text h1{
+    font-size: 3.7rem;
+    padding: 1px;
+}
+.coverpg-text p{
+    font-size: 1.8rem;
+    padding-bottom: 18px;
+}
+.coverpg-text a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 22px;
+    background-color: #4D4D4D;
+}
+.coverpg-text a:hover{
+    background-color: white;
+    color: #4D4D4D;
+}
+.text{
+    margin-top: 150px;
+}
+.courses{
+    background-color: white;
+    height: 500px;
+}
+.courses h1{
+    color: black;
+    padding: 20px;
+    font-size: 2.5rem;
+}
+.courses h2{
+    padding-bottom: 12px;
+    border-bottom: 2px solid black;
+}
+.courses h3{
+    margin-top: 10px;
+}
+.courses-avail .box img{
+    height: 220px;
+    width: 280px;
+}
+.box a{
+    color: white;
+    background-color:black;
+    padding: 6px 20px;
+    text-decoration: none;
+}
+.courses-avail{
+    display: flex;
+}
+.box{
+    padding: 30px 32px;
+    margin: 0px;
+    color: black;
+}
+.box h3{
+    padding-bottom: 6px;
+}
+.about{
+    background-color:white;
+    margin-top: 20px;
+}
+.about h1, .about p{
+    color: black;
+}
+.about-cont{
+    width:60vw;
+    margin: auto;
+    font-size: 1.6rem;
+}
+.about h1{
+    font-size: 2.6rem;
+    padding: 10px;
+}
+.gap{
+    background-color: white;
+    height: 40px;
+}
+.footer{
+    background-color: #4D4D4D;
+    display: flex;
+}
+.box1, .box2, .box3{
+    padding: 50px 100px;
+    color: white;
+}
+.box1 a{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.box1 a:hover{
+    color: black;
+    color: white;
+}
+.box3 a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    color: #4D4D4D;
+}
+.box3 a:hover{
+    background-color:black;
+    color: white;
+}
+.box3{
+    padding-top: 60px;
+}
+.box3 input{
+    background-color: #4D4D4D;
+    border: 2px solid white;
+    padding: 13px;
+    margin: 4px;
+}
+.box3 input::placeholder{
+    color: white;
+}
+.deep-footer{
+    background-color: #4D4D4D;
+}
+.deep-footer h2{
+    font-size: 1.4rem;
+    padding: 10px;
+    color: white;
+}
